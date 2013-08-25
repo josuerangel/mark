@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/src/reset.css">
+        <link rel="stylesheet" href="css/src/Layout.css">
+        <link rel="stylesheet" href="css/src/Header.css">
+        <link rel="stylesheet" href="css/src/SideBar.css">
+        <link rel="stylesheet" href="css/src/SideBar.Animation.css">
+        <link rel="stylesheet" href="css/src/Bookmark.css">
+        <link rel="stylesheet" href="css/src/Colors.css">
+        <link rel="stylesheet" href="css/src/Footer.css">
+        <title>marks</title>
+    </head>
+    <body>
+        <nav id="globalheader" class="backgroundHeader">
+            <a id="logo" href="http://mark.eshost.es/"><img src="img/icon-inside.png" alt="mark-logo"></a>
+            <div id="message-process">
+            </div>
+            <a id="config" href="http://mark.eshost.es/"><img src="img/icon-config.png" alt="mark-logo"></a>
+            <div id="globalsearch" class="backgroundHeader">
+                <form  id="formsearch" action="/mx/search/" method="post" class="search">
+                    <div id="contentsearch">
+                        <input id="searchquery" type="text" placeholder="buscar" autofocus>
+                        <div id="contenticonsearch" class="">
+                            <svg id="search-svg" viewBox="0 0 500 500" data-tags="search, magnifier, find" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 437.356,386.719L 342.883,292.246c 14.242-23.402, 22.445-50.886, 22.445-80.289c0.00-85.414-74.011-159.426-159.438-159.426
+                            c-85.41,0.00-154.656,69.25-154.656,154.672c0.00,85.418, 74.008,159.422, 159.418,159.422c 28.402,0.00, 55.00-7.691, 77.871-21.051
+                            l 94.984,94.989c 9.297,9.297, 24.367,9.297, 33.653,0.00l 23.558-23.555C 450.015,407.711, 446.649,396.008, 437.356,386.719z
+                            M 98.828,207.203c0.00-59.141, 47.938-107.082, 107.063-107.082c 59.148,0.00, 111.847,52.696, 111.847,111.836
+                            s-47.946,107.082-107.086,107.082C 151.524,319.039, 98.828,266.344, 98.828,207.203z"></path></svg>
+                        </div>
+                    </div>
+                </form>
+                <div id="cachesearch"></div>
+            </div>
+        </nav>
+<!-- <object data="img/icons/arrow.svg" type="image/svg+xml"></object> -->
+
+        <section id="bookmarks">
+        </section>
+        <!-- <section id="globalstate">
+            <article id="globalstatedescription">
+                <h6>No sincronizado</h6>
+            </article>
+        </section> -->
+        <aside>
+            <section>
+                <!-- <div class="root"><a ref="directory" href="#">Directorios</a></div> -->
+                <div class="dir"><ul id="sidebarfirstul"></ul></div></section>
+        </aside>
+<!--         <div id="main" role="main">
+            <div class="bar">
+                <div class="dir-title">
+                    <span class="dir-title-text">Directorios</span>
+                </div>
+                <div id="bar-1" class="bar">
+                    <ul></ul>
+                </div>
+            </div>
+            <div id="items" class="list-items">
+                <ul id="ul-items"></ul>
+            </div>
+        </div> -->
+
+        <footer>
+            <div id="footer-wrap">
+                Copyright (c) 2012 randev. All rights reserved.
+            </div>
+        </footer>
+
+        <!-- JavaScript and HTML must be in separate files for security. -->
+        <!--<script type="text/javascript" src="js/libs/jquery-1.7.1.min.js"></script>-->
+        <script type="text/javascript" src="js/src/setZeroTimeout.js"></script>
+        <script type="text/javascript" src="js/libs/zepto.js"></script>
+
+        <!-- Sandboxing MARK APP -->
+        <script type="text/javascript" src="js/src/Mark.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Data.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Data.Storage.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Elements.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Accions.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Core.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Sidebar.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Search.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Boot.js"></script>
+        <!--<script type="text/javascript" src="js/src/Mark.Data.Cache.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Effects.Zepto.js"></script>-->
+        <!--<script type="text/javascript" src="js/src/Mark.Data.Storage.js"></script>
+        >-->
+
+        <script type="text/javascript" src="js/popup.js"></script>
+    </body>
+</html>

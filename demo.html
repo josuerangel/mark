@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>        
+        <link rel="stylesheet" href="css/src/reset.css">
+        <link rel="stylesheet" href="css/src/Layout.css">
+        <link rel="stylesheet" href="css/src/Header.css">
+        <link rel="stylesheet" href="css/src/SideBar.css">
+        <link rel="stylesheet" href="css/src/SideBar.Animation.css">
+        <link rel="stylesheet" href="css/src/Bookmark.css">
+        <link rel="stylesheet" href="css/src/Footer.css">
+        <title>marks</title>    
+    </head>
+    <body>        
+        <!-- <header></header> -->
+        <nav id="globalheader" class="backgroundHeader">
+            <!-- <div id="header-wrap" class="backgroundHeader"> -->
+            <ul id="globalnav" role="navigation">
+                <li>
+                    <a id="signin" href="#">
+                        <!-- <svg class="icon-menu-svg" viewBox="0 0 512 512" data-tags="user, profile, avatar, person, talk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><metadata><license name="CC BY-SA 3.0" href="http://creativecommons.org/licenses/by-sa/3.0/"></license><author name="Keyamoon" href="http://keyamoon.com/"></author></metadata><path d="M 128.00,160.00A128.00,128.00 6120.00 1,0 384.00,160A128.00,128.00 6120.00 1,0 128.00,160zM 384.00,320.00L 128.00,320.00 C 57.308,320.00,0.00,377.309,0.00,448.00l0.00,32.00 l 4.033,0.00 l 503.934,0.00 L 512.00,480.00 l0.00-32.00 C 512.00,377.309, 454.692,320.00, 384.00,320.00z"></path></svg> -->
+                    </a>
+                </li>
+                <li>
+                    <a id="help" href="#">
+                        <!-- <svg class="icon-menu-svg" viewBox="0 0 512 512" data-tags="help, question, _new" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 256.00,0.00C 114.615,0.00,0.00,114.615,0.00,256.00s 114.613,256.00, 256.00,256.00c 141.385,0.00, 256.00-114.615, 256.00-256.00S 397.385,0.00, 256.00,0.00z M 256.00,480.00
+                        C 132.288,480.00, 32.00,379.712, 32.00,256.00S 132.288,32.00, 256.00,32.00s 224.00,100.288, 224.00,224.00S 379.712,480.00, 256.00,480.00zM 224.00,352.00L 288.00,352.00L 288.00,416.00L 224.00,416.00zM 352.00,128.00L 160.00,128.00 l0.00,64.00 l 160.00,0.00 l0.00,32.00 l-96.00,64.00l0.00,32.00 l 64.00,0.00 l 96.00-64.00l0.00-96.00 C 384.00,142.327, 369.673,128.00, 352.00,128.00z"></path></svg> -->
+                    </a>
+                </li>
+                <!--<div id="social">                    
+                    <a id="facebook" href="#" class="icon-menu-social"><img src="../img/facebook.png" alt="facebook"></a>
+                    <a id="googleplus" href="#" class="icon-menu-social"><img src="../img/googleplus.png" alt="googleplus"></a>
+                    <a id="twitter" href="#" class="icon-menu-social"><img src="../img/twitter.png" alt="twitter"></a>
+                </div>-->
+            </ul>
+            <div id="globalsearch" class="backgroundHeader">
+                <form  id="formsearch" action="/mx/search/" method="post" class="search">
+                    <div id="contentsearch">
+                        <input id="searchquery" type="text" placeholder="escribe aqui..." autofocus>
+                        <div id="contenticonsearch" class="backgroundHeader">
+                            <svg id="search-svg" viewBox="0 0 500 500" data-tags="search, magnifier, find" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M 437.356,386.719L 342.883,292.246c 14.242-23.402, 22.445-50.886, 22.445-80.289c0.00-85.414-74.011-159.426-159.438-159.426
+                            c-85.41,0.00-154.656,69.25-154.656,154.672c0.00,85.418, 74.008,159.422, 159.418,159.422c 28.402,0.00, 55.00-7.691, 77.871-21.051
+                            l 94.984,94.989c 9.297,9.297, 24.367,9.297, 33.653,0.00l 23.558-23.555C 450.015,407.711, 446.649,396.008, 437.356,386.719z
+                            M 98.828,207.203c0.00-59.141, 47.938-107.082, 107.063-107.082c 59.148,0.00, 111.847,52.696, 111.847,111.836
+                            s-47.946,107.082-107.086,107.082C 151.524,319.039, 98.828,266.344, 98.828,207.203z"></path></svg>
+                        </div>                        
+                    </div>
+                </form>
+                <div id="cachesearch"></div>
+            </div>
+            <!-- </div> -->
+        </nav>
+<!-- <object data="img/icons/arrow.svg" type="image/svg+xml"></object> -->
+        <aside>
+            <section>
+                <div class="root"><a ref="directory" href="#">Directorios</a></div>
+                <div class="dir"><ul id="sidebarfirstul"></ul></div></section>
+        </aside>                
+        <section id="bookmarks">
+        </section>
+        <section id="globalstate">
+            <article id="globalstatedescription">
+                <h6>No sincronizado</h6>
+            </article>
+        </section>
+        <div id="main" role="main">
+            <div class="bar">
+                <div class="dir-title">
+                    <span class="dir-title-text">Directorios</span>
+                </div>
+                <div id="bar-1" class="bar">
+                    <ul></ul>
+                </div>
+            </div>
+            <div id="items" class="list-items">
+                <ul id="ul-items"></ul>
+            </div>
+        </div>
+        
+        <footer>
+            <div id="footer-wrap">
+                Copyright (c) 2012 randev. All rights reserved.
+            </div>
+        </footer>
+    
+        <!-- JavaScript and HTML must be in separate files for security. -->
+        <!--<script type="text/javascript" src="js/libs/jquery-1.7.1.min.js"></script>-->
+        <script type="text/javascript" src="js/src/setZeroTimeout.js"></script>
+        <script type="text/javascript" src="js/libs/zepto.js"></script>
+
+        <!-- Sandboxing MARK APP -->    
+        <script type="text/javascript" src="js/src/Mark.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Elements.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Core.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Sidebar.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Search.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Boot.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Data.Cache.js"></script>
+        <script type="text/javascript" src="js/src/Mark.Effects.Zepto.js"></script>
+        <!--<script type="text/javascript" src="js/src/Mark.Data.Storage.js"></script>
+        >-->
+
+        <script type="text/javascript" src="js/popup.js"></script>
+    </body>
+</html>

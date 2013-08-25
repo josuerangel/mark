@@ -1,0 +1,108 @@
+/*.bar-inside {
+    display: block;
+    width: 100%;
+    margin-top: 6%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 5%;
+}
+
+.bar-inside li{
+    display: block;    
+}*/
+
+.dir-title{
+    /*background-color: white;    
+    position: relative;
+    height: 31px;
+    font-size: 1.2em;
+    width: 23%;*/
+}
+
+.dir-title-text{
+    /*color: black;
+    font-size: 1.5em;
+    float: left;    */
+}
+
+.sub {
+    /*background-color: #F3F3F3 !important;*/
+    width: 100%;
+    /*padding-top: 1%;*/
+    /*padding-bottom: 1%;*/
+    padding-left: .2em;
+    cursor: pointer;
+}
+    
+
+/*
+.dir-selected + .subdir {
+    background-color: #EDEDED;
+}*/
+
+#bar-1{
+/*    height: 529px;
+    width: 100%;
+    background-color: #F3F3F3;
+*/}
+
+#bar-1 ul li {
+    /*margin-bottom: .5em;*/
+}
+
+/*#bar-1 ul li:hover {
+    background-color: #DDDDDD;
+}
+*/
+
+/*.dir {
+  transition: all 3s ease-inout;
+}
+
+.dir:hover {
+    background-color: #DDDDDD;
+}
+
+
+
+#bar-1 ul li:hover span {
+    color: black;
+    font-size: 110%;
+}
+
+#bar-2{
+    display: none;
+}
+
+.text-dir{
+    /*padding: 1px 1px 1px 3px;*/
+    /*color: #4B73A9;*/
+    /*color: #939393;*/
+    /*margin-left: 12%;
+    margin-top: 4%;*/
+/*    display: block;
+    margin-top: -14%;
+    margin-left: 15%;
+*//*    width: 300%;*/ /*Esto es para que se vea en una sola linea el titulo, despues hay que animar en el hover*/
+}
+
+/*.dir-selected{
+    background-color: #008299;
+}
+
+.dir-selected{
+    background-color: #008299;
+}
+
+.dir-selected:hover {
+    background-color: #008299;
+}
+
+.dir-selected span{
+    color: white;
+}
+
+.dir-selected svg{
+    -webkit-transform: rotate(90deg);
+    height: 23%;
+}*/

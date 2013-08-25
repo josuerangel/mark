@@ -1,0 +1,86 @@
+@-webkit-keyframes FadeIn {
+    0% {
+        opacity:0;
+        margin-left: -50%;
+    }
+    100% {
+        opacity:1;
+        margin-left: 0%;
+    }
+}
+
+/*.dir {
+    -webkit-animation-name: FadeIn;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 3s;
+}*/
+
+.animate-fadeleft {
+    -webkit-animation-name: FadeIn;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .5s;
+}
+
+@-webkit-keyframes FadeInItems {
+    0% {
+        opacity:0;
+        margin-bottom: 100%;
+    }
+    100% {
+        opacity:1;
+        margin-bottom: 0%;
+    }
+}
+
+#bookmarks article {
+    -webkit-animation-name: FadeInItems;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .5s;
+}
+
+@-webkit-keyframes VerdeNegro {
+    0% {
+        color: #367E85;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.box-dir:hover .dir-title-text {
+    -webkit-animation-name: VerdeNegro;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .5s;
+}
+
+@-webkit-keyframes BlancoGris {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: #9de8e0;
+    }
+}
+
+/*.box-dir-li:hover {*/
+.box-dir:hover {
+/*.animate-fadeleft:hover {*/
+    -webkit-animation-name: BlancoGris;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .5s;
+}
+
+@-webkit-keyframes iconoHover {
+    0% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#config:hover {
+    -webkit-animation-name: iconoHover;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: .3s;
+}

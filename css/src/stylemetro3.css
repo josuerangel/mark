@@ -1,0 +1,255 @@
+* {
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans", Arial, "sans-serif";
+}
+
+footer {
+    display: none;
+}
+
+ul {	
+	/*padding-left: .3em;*/
+}
+
+.backgroundHeader {
+    background-color: #008299;
+}
+
+.textHeader {
+    color: #FFFFFF;
+}
+
+#header-wrap {
+    position: relative;
+    width: 100%;    
+    padding: 0 0 0 0.4em;    
+    height: 7%;
+}
+
+.icon-menu {
+    color: black;    
+    cursor: pointer;    
+    display: inline-block;    
+    padding: 0.4em 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 8%;
+}
+
+.icon-menu svg{    
+    width: 75%;
+    height: 80%;
+    fill:#FFFFFF;    
+}
+
+.icon-menu:hover{    
+    background-color: #007084;
+    /*background-color: #00677A;*/
+}
+
+.icon-menu:hover svg{
+    /*fill:#34D9D1;*/
+}
+
+#social{
+    display: inline-block;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.icon-menu-social{
+    display: inline-block;
+    padding: 2px 2px -4px 2px;
+    cursor: pointer;    
+}
+
+#search{
+    background-color:white; /*important*/
+    border: none;
+    float: right;
+    height:75%;
+    margin-top: .16em;
+    margin-right: .4em;
+    /*opacity: 0.95;*/
+    outline: 0;        
+    padding: .15em .15em .15em 0;    
+    position: relative;  
+    right: .5em;    
+    top:.3em;    
+    width:50%;    
+}
+
+#search input{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: 100%;
+    height: 100%;
+    margin-top: .3em;    
+    padding-left: .3em;
+    
+}
+
+#search div{
+    position: relative;
+    float: right;
+    height: 80%;
+    width: 10%;    
+    padding-top: 0.2em;
+    padding-bottom: 1px;
+}
+
+#search div svg{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    fill: white;
+}
+
+/*#search:hover{
+    border: none;
+    border-left:2px #34D9D1 solid;
+    border-bottom:2px #34D9D1 solid; 
+    opacity: 1;
+}
+
+#search::-webkit-input-placeholder {
+    color: #FFF6A6;
+    font-style: italic;    
+}
+
+#search:hover::-webkit-input-placeholder {
+    color: #34D9D1;
+}*/
+
+
+/* para mozilla, version posterior */
+/*#search:-moz-placeholder{
+    color: white;
+    font-style: italic;
+}*/
+
+#main{    
+    height: 500px;
+    margin-top: .2em;
+    overflow: hidden;    
+    padding: 0px;
+    width: 600px;
+}
+
+.bar, .list-items{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.dir-title{
+    font-size: 1.2em;
+    /*border-bottom: 2px solid #4F4E4E;*/
+    margin-bottom: 2px;    
+}
+
+.dir-title-text{
+    color: black;
+    font-size: 1.5em;    
+}
+
+#bar-1{
+    float: right;
+    padding-left: .5em;
+    /*margin-top: -15px;*/
+    /*background: url("../img/bg-dir.png");
+    border-right: 1px solid #4F4E4E transparent;*/
+}
+
+#bar-2{    
+    display: none;
+}
+
+
+.dir{
+    font-size: 1em;
+    /*padding-top: 2px;
+    padding-bottom: 2px;*/
+    background-color: #E2E2E2;
+    /*background-color: #6D6D6D;*/
+    /*background-color: #4B73A9;*/
+    border-bottom: 0.5px solid #4F4E4E;
+    /*box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);*/
+    /*border-radius: 2px;*/
+    width: 100%;
+    margin-bottom: 2px;
+    /*margin-left: -6px;*/
+    cursor: pointer;
+}
+
+.text-dir{
+    padding: 1px 1px 1px 3px;
+    color: #4B73A9;
+}
+
+.dir-selected{
+    /*background-color: #3D3C3C;*/
+    background: url("../img/bg-dir-selected.png");
+}
+
+.list-items{
+    float: left;
+    width: 79%;
+}
+
+.list-item ul li{
+    position: relative;
+    padding-bottom: 10px;
+    cursor: hand;
+}
+
+#items{
+    /*background-color: #F4F4F4;*/
+}
+
+#ul-items{
+    padding: 15px 5px 15px 20px;
+}
+
+.item{
+    padding: 0 0 12px 0;
+}
+
+.item-content{
+    width: 95%;
+    /*background-color: #F4F4F4;   */
+    font-size: .8em;
+    margin: 15px 10px 5px 15px;
+    padding: 5px;
+    background: url('../img/descarga.png') scroll transparent;
+    box-shadow: 1px 1px 10px #CCC;
+    -webkit-box-shadow: 1px 1px 10px #CCC;
+    border-radius: 5px;    
+}
+
+.item-content span{
+    display: block;
+    padding: 2px;
+}
+
+.item-info span{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#footer-wrap{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    border: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    /*color: #350;*/
+    background-color: #CCCCC2;
+    top: 95%;    
+}
+

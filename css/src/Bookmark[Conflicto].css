@@ -1,0 +1,138 @@
+#bookmarks {
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 90%;
+    padding-top: 3%;    
+}
+
+#bookmarks article {
+    height: 10%;    
+    position: relative;
+    display: block;
+    margin: 0 5% 5% 5%;
+    padding: 2%;
+    background-color: white;
+    /*border: 1px solid #CCC;    */
+    box-shadow: 2px solid #CCC;
+}
+
+#bookmarks article * {
+    display: block;
+}
+
+#bookmarks article header {
+    /*height: 20%;*/
+    position:relative;
+}
+
+#bookmarks article header * {
+    position: relative;
+    display: inline;
+    float: left;
+    /*overflow: hidden;*/
+    text-decoration: none;
+}
+
+#bookmarks article header img {
+    height: 16px;
+    width: 16px;
+    box-shadow: 1px solid #CCC;
+}
+
+#bookmarks article header a {
+    width: 90%;
+    height: 100%;
+    overflow-x:hidden;
+    padding-left: 3%;
+    color: #496F72;
+    color: #4C6B6E;
+    color: #556364;
+    color: #3A4444;
+}
+
+#bookmarks article nav {
+    text-align: right;    
+    /*height: 10%;*/
+    /*padding: .5%;*/
+}
+
+#bookmarks article nav ul {
+    position: relative;    
+    zoom: 1;
+    z-index: 3;
+    padding-top: 1.1%;
+    padding-bottom: 1%;
+}
+
+#bookmarks article nav ul li {
+    display: inline-block;
+    padding-right: 3%;
+}
+
+#bookmarks article nav ul li div {
+/*    width: 8%;
+    height: 75%;*/
+/*    overflow: hidden;*/
+    /*text-indent: -9999px;*/
+    cursor: pointer;
+    font-size: 85%;
+    color: #496F72;
+    /*text-decoration: none;*/
+}
+
+#bookmarks article nav ul li div *{
+    color: #496F72;
+}
+
+#bookmarks article nav ul li a * {
+    display: block;
+}
+
+#bookmarks article nav ul li a svg {
+    fill:#FFFFFF;
+}
+
+/*.list-items{
+    width: 74%;
+}
+
+.list-item ul li{
+    position: relative;
+    padding-bottom: 10px;
+    cursor: hand;
+}
+*/
+#items{
+    /*background-color: #F4F4F4;*/
+}
+
+#ul-items{
+    /*padding: 15px 5px 15px 20px;*/
+}
+
+/*.item{
+    padding: 0 0 12px 0;
+}
+*/
+.item-content{
+    width: 95%;
+    /*background-color: #F4F4F4;   */
+    font-size: .8em;
+    margin: 15px 10px 5px 15px;
+    padding: 5px;
+    /*background: url('../img/descarga.png') scroll transparent;*/
+    box-shadow: 1px 1px 10px #CCC;
+    -webkit-box-shadow: 1px 1px 10px #CCC;
+    border-radius: 5px;    
+}
+
+.item-content span{
+    display: block;
+    padding: 2px;
+}
+
+.item-info span{
+    display: inline-block;
+    padding-right: 8px;
+}

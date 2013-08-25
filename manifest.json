@@ -1,0 +1,21 @@
+{
+	"name":"__MSG_extName__",
+	"default_locale": "es",
+	"version":"0.1",
+	"manifest_version":2,
+	"description":"facil acceso a favoritos, como lo querias!",
+	  "background": {
+	    "scripts": [
+	      "js/src/Mark.js"	    ]
+	  },
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"index.html"
+	},
+	"permissions":[
+		"bookmarks",
+		"storage",
+		"chrome://favicon/",
+		"http://g.etfv.co/"
+	]
+}

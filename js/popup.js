@@ -1,0 +1,3 @@
+$(function() {
+  MARK.App.start();
+});

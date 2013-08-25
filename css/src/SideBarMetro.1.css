@@ -1,0 +1,105 @@
+aside {
+    height: 100%;
+    background-color: #F3F3F3;
+}
+
+aside a {
+    text-decoration: none;
+    color: #939393;
+}
+
+aside div {
+    padding-top: 3%;    
+    padding-bottom: 5%;    
+}
+
+aside section {
+    height: 100%;
+}
+
+section .root{
+    background-color: white;
+    font-size: 130%;
+    font-weight: bold;
+    padding: 5%;
+    padding-bottom: 8%;
+    overflow: hidden;
+}
+
+aside section .dir {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+}
+
+aside section .dir ul {
+    position: relative;
+}
+
+aside section .dir ul li {
+    position: relative;
+    display: inline;
+    width: 300%;
+}
+
+.box-dir{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 17%;
+    width: 300%;
+}
+
+.box-dir a {
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.box-dir .dir-arrow {
+    height: 3%;
+    width: 5%;
+    opacity: 0;
+}
+
+.box-dir:hover{
+    background-color: #008299;
+}
+
+.box-dir:hover a.dir-arrow{
+    opacity: 1;
+}
+
+.box-dir-selected{
+    background-color: #008299;
+}
+
+.box-dir-selected:hover {
+    background-color: #008299;
+}
+
+.dir-title-text{
+    float: left;    
+}
+
+.dir-row-svg{
+    position: relative;
+    float: left;
+    width: 90%;
+    height: 90%;
+    fill:#FFFFFF;
+}
+
+.dir a span {
+    width: 300%;
+}
+
+.subdir {
+    background-color: #E2E2E2;
+    font-size:94%;
+    height: 90%;
+    width: 100%;
+}
+
+.opacito {
+    opacity: 0;
+}

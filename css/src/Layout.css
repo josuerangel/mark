@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'OpenSans';
+  font-style: normal;
+  /*font-weight: bold;*/
+  src: local(''), url('/font/OpenSans-Regular.ttf') format('truetype');
+}
+
+* {
+    /*font-family: "OpenSans", "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans", Arial, "sans-serif";*/
+    font-family: 'OpenSans', 'Droid Sans', sans-serif;
+    font-size: 12px;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 550px;
+    height: 600px;
+    overflow: hidden;
+}
+
+aside {
+    display: block;
+    float: right;
+    position: relative;
+    width: 150px;
+    height: 100%;
+    background-color: #e8e8e8;
+}
+
+.bar, .list-items{
+    display: block;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    width: 26%;
+    height: 560px;
+    /*height: 92%;*/
+}
+
+#main{
+    padding: 0px;
+    width: 600px;
+}

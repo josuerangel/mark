@@ -1,0 +1,43 @@
+.list-items{
+    width: 74%;
+}
+
+.list-item ul li{
+    position: relative;
+    padding-bottom: 10px;
+    cursor: hand;
+}
+
+#items{
+    /*background-color: #F4F4F4;*/
+}
+
+#ul-items{
+    /*padding: 15px 5px 15px 20px;*/
+}
+
+.item{
+    padding: 0 0 12px 0;
+}
+
+.item-content{
+    width: 95%;
+    /*background-color: #F4F4F4;   */
+    font-size: .8em;
+    margin: 15px 10px 5px 15px;
+    padding: 5px;
+    /*background: url('../img/descarga.png') scroll transparent;*/
+    box-shadow: 1px 1px 10px #CCC;
+    -webkit-box-shadow: 1px 1px 10px #CCC;
+    border-radius: 5px;    
+}
+
+.item-content span{
+    display: block;
+    padding: 2px;
+}
+
+.item-info span{
+    display: inline-block;
+    padding-right: 8px;
+}

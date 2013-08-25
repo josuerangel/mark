@@ -1,0 +1,130 @@
+#globalheader {
+    position: relative;
+    display: block;
+    float: right;
+    overflow: hidden;
+    width: 130px;
+    height: 55px;
+    text-align: left;
+    z-index: 9998;
+    padding: 10px 10px 4px 10px;
+    box-shadow: 2px 1px 3px 0px #555152;
+}
+
+.backgroundHeader {
+    background-color: #e8e8e8;
+}
+
+#globalheader > * {
+    display: inline-block;
+    color: white;
+}
+
+#logo {
+    width: 16px;
+    height: 16px;
+}
+
+#message-process {
+    /*margin-bottom: 5px;*/
+}
+
+#globalheader #globalnav {
+    position: relative;
+    display: block;
+    zoom: 1;
+    z-index: 3;
+    /*padding-top: 1.2%;
+    padding-bottom: 1.5%;*/
+}
+
+#globalheader #globalnav li {
+    display: inline;
+}
+
+#globalheader #globalnav li a {
+    float: left;
+    width: 8%;
+    height: 75%;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+#globalheader #globalnav li a * {
+    display: block;
+}
+
+#globalheader #globalnav li a svg {
+    fill:#FFFFFF;
+}
+
+#config {
+    position: relative;
+    float: right;
+    opacity: 0.6;
+    width: 16px;
+    height: 16px;
+}
+
+#config:hover {
+    opacity: 1;
+}
+
+#globalsearch {
+    position:relative;
+    width: 100%;
+    z-index:5;
+    height: 24px;
+}
+
+#formsearch{
+    position: relative;
+    height: 100%;
+}
+
+#contentsearch {
+    position: relative;
+    display: inline;
+    height: 100%;
+    padding-right: 1%;
+}
+
+#searchquery {
+    position: relative;
+    background-color: white;
+    border: none;
+    font-size: 100%;
+    height: 100%;
+    width: 95%;
+    margin-top: .3em;
+    padding-left: .5em;
+    border-radius: 3px;
+    color: #3bd1c2;
+    /*box-shadow: 0 6px 5px -5px #555152;*/
+    /*box-shadow: 2px 2px 0px 0px #555152;*/
+    /*border: 1px solid rgba(85,81,82,0.6);*/
+}
+
+#searchquery::-webkit-input-placeholder {
+    /*padding-left: 2px;*/
+    color: #858686;
+    opacity: 0.6;
+}
+
+#contenticonsearch {
+    position: relative;
+    float: right;
+    margin-top: -19px;
+    /*margin-right: 8px;*/
+    width: 18px;
+    height: 20px;
+}
+
+#search-svg{
+    position: relative;
+    height: 90%;
+    width: 90%;
+    fill:#858686;
+    opacity: 0.5;
+}

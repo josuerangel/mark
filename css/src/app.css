@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    /*background: #F4F4F4;    */
+    /*background-color: #6D6D6D;*/
+    background: url('../img/bg.png');
+}
+
+div#main{
+	width: 600px;
+}
+
+ul{
+	list-style: none;
+	padding: 5px;
+}
+
+#header-wrap{    
+    position: fixed;
+    clear: both;
+    width: 100%;
+    top: 0;
+    padding: 0 0 0 0;
+    z-index: 558;
+    height: 35px;
+    /*border-bottom: 1px solid #CCC;*/
+    border-top: 1px solid #CCC;
+    /*background-color: #F4F4F4;*/
+    background: url('../img/bg-header.png');
+    box-shadow: 1px 1px 15px #95887D;
+    -webkit-box-shadow: 1px 1px 15px #95887D;
+    /*-webkit-box-shadow: 1px 1px 15px #CCC;*/
+    border-radius: 5px;    
+}
+
+.icon-menu{
+    display: inline-block;
+    padding: 5px 10px 0 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+.icon-menu div{
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.icon-menu div span{
+    color: white;
+    text-shadow:  0px 1px 2px rgba(255,255,255,0.5),  
+                            0px -2px 4px rgba(0,0,0,0.5);
+}
+
+
+.icon-menu div:hover{
+    background: white;    
+}
+
+.icon-menu div:hover span{
+    color: black;
+}
+
+.icon-menu span{
+    display: inline-block;    
+    padding: 3px;
+}
+
+.icon-menu img{    
+    width: 40px;
+    height: 25px;
+    margin: 5px 0 0 -5px;
+    display: block;
+    color: #3F3D3D;
+}
+
+.icon-menu a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+#social{
+    display: inline-block;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.icon-menu-social{
+    display: inline-block;
+    padding: 2px 2px -4px 2px;
+    cursor: pointer;    
+}
+
+#search{
+    position: relative;
+    float: right;
+    /*background: url("../img/search-sidebar-bg.png") no-repeat scroll 1px -49px transparent;*/    
+    border: none;
+    /*border:1px #3F3D3D solid; /*important*/
+    border-left:1px white solid;
+    border-bottom:1px white solid; /*important*/
+    background-color:transparent; /*important*/
+    position:absolute; /*important*/
+    top:5px;
+    right: 10px;
+    width:256px;
+    height:20px;
+    opacity: 0.8;
+    outline: 0;
+    color: white;    
+    padding: 0 5px 0 0;
+    text-indent: .5em;
+}
+
+#search:hover{
+    opacity: 1;
+}
+
+#search::-webkit-input-placeholder {
+    color: white;
+    font-style: italic;    
+}
+
+
+/* para mozilla, version posterior */
+#search:-moz-placeholder{
+    color: white;
+    font-style: italic;
+}
+
+.bar, .list-items{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    float: left;
+    padding-top: 18px;
+    overflow: hidden;
+}
+
+#bar-1{
+    background: url("../img/bg-dir.png");
+    /*border-left: 1px solid #4F4E4E;*/
+    border-right: 1px solid #4F4E4E transparent;
+}
+
+#bar-2{
+    display: none;
+}
+
+.dir{    
+    font-size: 0.8em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    /*background-color: #E2E2E2;*/
+    /*background-color: #6D6D6D;*/
+    border-bottom: 0.5px solid #4F4E4E;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+    border-radius: 2px;
+    width: 140%;
+    margin-left: -6px;
+    cursor: pointer;
+}
+
+.text-dir{
+    padding: 1px 1px 1px 3px;
+}
+
+.dir-selected{
+    /*background-color: #3D3C3C;*/
+    background: url("../img/bg-dir-selected.png");
+}
+
+.list-items{
+    width: 79%;
+}
+
+.list-item ul li{
+    position: relative;
+    padding-bottom: 10px;
+    cursor: hand;
+}
+
+#items{
+    /*background-color: #F4F4F4;*/
+}
+
+#ul-items{
+    padding: 15px 5px 15px 20px;
+}
+
+.item{
+    padding: 0 0 12px 0;
+}
+
+.item-content{
+    width: 95%;
+    /*background-color: #F4F4F4;   */
+    font-size: .8em;
+    margin: 15px 10px 5px 15px;
+    padding: 5px;
+    background: url('../img/descarga.png') scroll transparent;
+    box-shadow: 1px 1px 10px #CCC;
+    -webkit-box-shadow: 1px 1px 10px #CCC;
+    border-radius: 5px;    
+}
+
+.item-content span{
+    display: block;
+    padding: 2px;
+}
+
+.item-info span{
+    display: inline-block;
+    padding-right: 8px;
+}
+
+#footer-wrap{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    border: 0;
+    padding: 10px 0 0 0;
+    text-align: center;
+    /*color: #350;*/
+    background-color: #CCCCC2;
+    top: 95%;    
+}
+
